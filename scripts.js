@@ -1,12 +1,9 @@
-var firstName = "Jonathan";
-var lastName = "Mmadu";
-var middleName = "Onyedikachi";
-var myHeight = "5.11ft";
-var myCountry = "Nigeria";
+let myName = 'Hey there, I am Jo_Na_Than';
+let myHeight = 'I am 5.11ft tall...maybe not too tall enough but I think I am a little bit above average height';
+let myCountry = 'I live in Nigeria where Sapa wants to finish someone';
+let myContinue = 'Refresh to get my details once again';
 
-myNames = firstName + " " + lastName + " " + middleName;
-
-document.write('Name: ' + myNames + '<br/>');
-document.write('Height: ' + myHeight + '<br/>');
-document.write('Country: ' + myCountry + '<br/>' + '<br/>');
-document.write('I am ' + myNames + ', I am nearly ' + myHeight + ' tall and I come from ' + myCountry + ' where Sapa want to finish somebody.' )
+alert(myName);
+alert(myHeight);
+alert(myCountry);
+alert(myContinue)
